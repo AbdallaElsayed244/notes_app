@@ -16,3 +16,4 @@ class NotesApp extends StatelessWidget {
     );
   }
 }
+
