@@ -12,7 +12,7 @@ class AddNoteButton extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         height: 55,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), color: primarycolor),
+            borderRadius: BorderRadius.circular(10), color: kprimarycolor),
         child: Center(
           child: Text(
             text,
