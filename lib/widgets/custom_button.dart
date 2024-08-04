@@ -9,7 +9,7 @@ class AddNoteButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return InkWell(
       onTap: ontap,
       child: Container(
           width: MediaQuery.of(context).size.width,
